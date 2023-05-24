@@ -13,8 +13,12 @@ const pokemonComponents = pokemons.map((pokemon, index) => {
 
     return ( 
         <>
+            <div className="Middle">
+            <hr/>
             <h2>Professor Oak's Notes:</h2>
             <hr/>
+            {/* <PokemonForm pokemonComponents={pokemonComponents}/> */}
+            </div>
             {pokemonComponents}
         </>
      );

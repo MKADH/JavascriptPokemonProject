@@ -36,6 +36,30 @@
     transform: rotate(360deg);
   }
 }
-.PokemonContainer{
-  background-color: blue;
+
+.Top{
+  background-color: crimson;
+  color: yellow;
+  -webkit-text-stroke: 3px rgb(2, 115, 153);
+  font-size: 150%;
+  outline-color: lightblue;
 }
+.Middle{
+  background-color: black;
+  color: white;
+}
+.T{
+  background-color: crimson;
+  color: yellow;
+  font-size: 130%;
+}
+.joke{
+  -webkit-text-stroke: 1px rgb(2, 115, 153);
+}
+body{
+  background-color: crimson;
+}
+.pikachu{
+  background-color: white;
+}
+
